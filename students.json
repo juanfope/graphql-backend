@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1",
+        "firstName": "Ana",
+        "lastName": "Gomez",
+        "age": 20,
+        "grade": "A",
+        "email": "ana.gomez@example.com",
+        "major": "Ingenieria",
+        "phone": "3001111111",
+        "address": "Calle 1 #1-01"
+    },
+    {
+        "id": "2",
+        "firstName": "Luis",
+        "lastName": "Martinez",
+        "age": 21,
+        "grade": "B",
+        "email": "luis.martinez@example.com",
+        "major": "Economia",
+        "phone": "3002222222",
+        "address": "Calle 2 #2-02"
+    },
+    {
+        "id": "3",
+        "firstName": "Camila",
+        "lastName": "Lopez",
+        "age": 19,
+        "grade": "A",
+        "email": "camila.lopez@example.com",
+        "major": "Matematicas",
+        "phone": "3003333333",
+        "address": "Calle 3 #3-03"
+    },
+    {
+        "id": "4",
+        "firstName": "Diego",
+        "lastName": "Perez",
+        "age": 22,
+        "grade": "C",
+        "email": "diego.perez@example.com",
+        "major": "Fisica",
+        "phone": "3004444444",
+        "address": "Calle 4 #4-04"
+    },
+    {
+        "id": "5",
+        "firstName": "Mariana",
+        "lastName": "Santos",
+        "age": 20,
+        "grade": "B",
+        "email": "mariana.santos@example.com",
+        "major": "Informatica",
+        "phone": "3005555555",
+        "address": "Calle 5 #5-05"
+    },
+    {
+        "id": "6",
+        "firstName": "Juan",
+        "lastName": "Rojas",
+        "age": 23,
+        "grade": "A",
+        "email": "juan.rojas@example.com",
+        "major": "Quimica",
+        "phone": "3006666666",
+        "address": "Calle 6 #6-06"
+    },
+    {
+        "id": "7",
+        "firstName": "Catalina",
+        "lastName": "Diaz",
+        "age": 21,
+        "grade": "B",
+        "email": "catalina.diaz@example.com",
+        "major": "Biologia",
+        "phone": "3007777777",
+        "address": "Calle 7 #7-07"
+    },
+    {
+        "id": "8",
+        "firstName": "Sergio",
+        "lastName": "Vargas",
+        "age": 22,
+        "grade": "C",
+        "email": "sergio.vargas@example.com",
+        "major": "Administracion",
+        "phone": "3008888888",
+        "address": "Calle 8 #8-08"
+    },
+    {
+        "id": "9",
+        "firstName": "Laura",
+        "lastName": "Torres",
+        "age": 19,
+        "grade": "A",
+        "email": "laura.torres@example.com",
+        "major": "Arte",
+        "phone": "3009999999",
+        "address": "Calle 9 #9-09"
+    },
+    {
+        "id": "10",
+        "firstName": "Felipe",
+        "lastName": "Castro",
+        "age": 24,
+        "grade": "B",
+        "email": "felipe.castro@example.com",
+        "major": "Derecho",
+        "phone": "3001010101",
+        "address": "Calle 10 #10-10"
+    }
+]

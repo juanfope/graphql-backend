@@ -13,6 +13,7 @@ app.use(
         origin: [
             "http://localhost:5173",
             "https://graphql-frontend.onrender.com",
+            "https://graphql-frontend-smoky.vercel.app",
         ],
         credentials: true,
     })

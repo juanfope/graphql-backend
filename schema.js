@@ -1,6 +1,6 @@
 import { gql } from "apollo-server-express";
 import fetch from "node-fetch";
-import students from "./students.json" assert { type: "json" };
+import students from "./students.json" with { type: "json" };
 
 export const typeDefs = gql`
   type Image {

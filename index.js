@@ -1,11 +1,22 @@
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import dotenv from "dotenv";
+import cors from "cors";
 import { typeDefs, resolvers } from "./schema.js";
 
 dotenv.config();
 
 const app = express();
+
+app.use(
+    cors({
+        origin: [
+            "http://localhost:5173",
+            "https://graphql-frontend.onrender.com",
+        ],
+        credentials: true,
+    })
+);
 
 const server = new ApolloServer({
     typeDefs,
@@ -13,7 +24,8 @@ const server = new ApolloServer({
 });
 
 await server.start();
-server.applyMiddleware({ app });
+
+server.applyMiddleware({ app, path: "/graphql" });
 
 const PORT = process.env.PORT || 4000;
 
